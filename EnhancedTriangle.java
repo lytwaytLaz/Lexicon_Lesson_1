@@ -10,7 +10,7 @@
 public class EnhancedTriangle {
     public static void main(String[] args) {
         if (args.length != 1) {
-            System.err.println("Usage: Echo <string>");
+            System.err.println("Usage: java EnhancedTriangle <rows>");
             System.exit(1); // exit to be used with care
         }
         int count = 1;
